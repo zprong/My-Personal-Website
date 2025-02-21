@@ -1,0 +1,12 @@
+This is meant to be a personal website. 
+
+This codebase uses Next.js, TailwindCSS, and TypeScript.
+
+The website is hosted on Vercel.
+
+A few rules:
+- All new components should be added to the components folder.
+- All new pages should be added to the pages folder.
+- All new images should be added to the public folder.
+- Always use strict types instead of any in TypeScript.
+- Always use TailwindCSS classes instead of inline styles.
