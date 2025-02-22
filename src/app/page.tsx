@@ -12,7 +12,7 @@ export default function Home() {
               Software Engineer
             </div>
             <h1 className="text-6xl font-bold">Zachary Prong</h1>
-            <p>I'm an engineer blahblahblah insert description here</p>
+            <p>I&apos;m an engineer blahblahblah insert description here</p>
             <div className="flex gap-4">
               {/* TODO: Add resume download */}
               <button
@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex gap-4">
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href="https://www.linkedin.com/in/zachary-prong/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -45,7 +45,7 @@ export default function Home() {
             </a>
             <a
               className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+              href="https://github.com/zprong"
               target="_blank"
               rel="noopener noreferrer"
             >
