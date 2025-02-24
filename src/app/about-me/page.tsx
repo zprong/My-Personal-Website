@@ -9,7 +9,7 @@ export default function About() {
             <h2 className="text-2xl font-bold mb-4">Background</h2>
             <p className="text-neutral-700 dark:text-neutral-300">
               {/* Add your background story here */}
-              I'm a software engineer passionate about building applications that enrich people&apos;s daily lives.
+              I&apos;m a software engineer passionate about building applications that enrich people&apos;s daily lives.
             </p>
           </section>
 
