@@ -50,7 +50,7 @@ export default function Contact() {
       <main className="max-w-2xl mx-auto">
         <h1 className="text-4xl font-bold mb-8">Contact Me</h1>
         <div className="space-y-6">
-          <p className="text-neutral-700 dark:text-neutral-300">
+          <p>
             Feel free to reach out if you&apos;d like to connect or discuss potential opportunities.
           </p>
           <form onSubmit={handleSubmit} className="space-y-6">
