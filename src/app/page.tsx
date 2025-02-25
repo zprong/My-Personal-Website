@@ -25,8 +25,8 @@ export default function Home() {
               href="/api/download"
               className="inline-flex items-center justify-center px-6 py-3 
                 border border-amber-200 dark:border-neutral-700 rounded-lg 
-                bg-amber-200
-                hover:bg-amber-100 dark:hover:bg-neutral-800 
+                bg-amber-200 dark:bg-amber-600 
+                hover:bg-amber-100 dark:hover:bg-amber-500 
                 transition-colors font-medium"
               role="button"
             >
@@ -51,6 +51,7 @@ export default function Home() {
               aria-hidden
               src="/linkedin.svg"
               alt="LinkedIn icon"
+              className="dark:invert"
               width={24}
               height={24}
             />
@@ -65,6 +66,7 @@ export default function Home() {
               aria-hidden
               src="/github-mark.svg"
               alt="Github icon"
+              className="dark:invert"
               width={24}
               height={24}
             />
