@@ -9,8 +9,19 @@ export default function About() {
             <h2 className="text-2xl font-bold mb-4">Background</h2>
             <p className="text-neutral-700 dark:text-neutral-300">
               I&apos;m a software engineer passionate about building applications that enrich
-              people&apos;s daily lives. More specifically, I've conducted many A/B tests to improve user engagement and retention. I also have experience as a Tech Lead, where I led a team of 5+ engineers to build products. This includes: designing tech docs, leading code reviews, and mentoring junior engineers.
+              people&apos;s daily lives.
             </p>
+            <ul className="list-disc list-inside text-neutral-700 dark:text-neutral-300">
+              <li className="text-neutral-700 dark:text-neutral-300">
+                As a growth engineer, I&apos;ve conducted (and shipped!) 40+ A/B tests that have improved user engagement and retention.
+              </li>
+              <li className="text-neutral-700 dark:text-neutral-300">
+                As a web engineer, I&apos;ve shipped features to hundreds of thousands of users with a heavy focus on accessibility, and sped up developer velocity via contributions to our in-house design systems
+              </li>
+              <li className="text-neutral-700 dark:text-neutral-300">
+                As a Tech Lead, I&apos;ve led a team of 5+ engineers to ship many medium-large size projects, written tech docs, led code reviews, and mentored junior engineers.
+              </li>
+            </ul>
           </section>
 
           <section>
@@ -23,6 +34,9 @@ export default function About() {
               <li>Work with others: a cross-functional team to brainstorm new features and fellow engineers to bring those features to life</li>
               <li>Take strong ownership in building products from 0 to 1</li>
             </ul>
+            <p className="text-neutral-700 dark:text-neutral-300 py-4">
+              If you're interested in working with me, <a href="/contact" className="text-amber-500 hover:underline hover:underline-offset-4">send a message my way</a>!
+            </p>
           </section>
 
           <section>
