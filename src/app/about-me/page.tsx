@@ -8,9 +8,21 @@ export default function About() {
           <section>
             <h2 className="text-2xl font-bold mb-4">Background</h2>
             <p className="text-neutral-700 dark:text-neutral-300">
-              {/* Add your background story here */}
-              I&apos;m a software engineer passionate about building applications that enrich people&apos;s daily lives.
+              I&apos;m a software engineer passionate about building applications that enrich
+              people&apos;s daily lives.
             </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold mb-4">Specializations</h2>
+            <p className="text-neutral-700 dark:text-neutral-300">
+              I specialize in growing products through data-driven decision making. I thrive in environments that enable me to do any of the following:
+            </p>
+            <ul className="list-disc list-inside text-neutral-700 dark:text-neutral-300">
+              <li>Conduct lots of A/B tests (both large and small) to improve user engagement and retention</li>
+              <li>Work with others: a cross-functional team to brainstorm new features and fellow engineers to bring those features to life</li>
+              <li>Take strong ownership in building products from 0 to 1</li>
+            </ul>
           </section>
 
           <section>
@@ -22,7 +34,6 @@ export default function About() {
                   <li>React</li>
                   <li>TypeScript</li>
                   <li>Next.js</li>
-                  {/* Add more skills */}
                 </ul>
               </div>
 
@@ -31,8 +42,7 @@ export default function About() {
                 <ul className="list-disc list-inside text-neutral-700 dark:text-neutral-300">
                   <li>Node.js</li>
                   <li>Python</li>
-                  <li>SQL</li>
-                  {/* Add more skills */}
+                  <li>MongoDB</li>
                 </ul>
               </div>
 
@@ -40,20 +50,11 @@ export default function About() {
                 <h3 className="font-bold mb-2">Tools</h3>
                 <ul className="list-disc list-inside text-neutral-700 dark:text-neutral-300">
                   <li>Git</li>
-                  <li>Docker</li>
+                  <li>CI/CD</li>
                   <li>AWS</li>
-                  {/* Add more tools */}
                 </ul>
               </div>
             </div>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold mb-4">Interests</h2>
-            <p className="text-neutral-700 dark:text-neutral-300">
-              {/* Add your interests here */}
-              Outside of coding, I enjoy...
-            </p>
           </section>
         </div>
       </main>
