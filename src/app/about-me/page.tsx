@@ -35,7 +35,7 @@ export default function About() {
               <li>Take strong ownership in building products from 0 to 1</li>
             </ul>
             <p className="text-neutral-700 dark:text-neutral-300 py-4">
-              If you're interested in working with me, <a href="/contact" className="text-amber-500 hover:underline hover:underline-offset-4">send a message my way</a>!
+              If you&apos;re interested in working with me, <a href="/contact" className="text-amber-500 hover:underline hover:underline-offset-4">send a message my way</a>!
             </p>
           </section>
 
