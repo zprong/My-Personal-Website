@@ -9,7 +9,7 @@ export default function About() {
             <h2 className="text-2xl font-bold mb-4">Background</h2>
             <p className="text-neutral-700 dark:text-neutral-300">
               I&apos;m a software engineer passionate about building applications that enrich
-              people&apos;s daily lives.
+              people&apos;s daily lives. More specifically, I've conducted many A/B tests to improve user engagement and retention. I also have experience as a Tech Lead, where I led a team of 5+ engineers to build products. This includes: designing tech docs, leading code reviews, and mentoring junior engineers.
             </p>
           </section>
 
