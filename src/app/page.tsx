@@ -5,21 +5,25 @@ export default function Home() {
   return (
     <div className="grid items-center justify-items-center min-h-screen p-8 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start items-center sm:items-start">
-        <div className="flex gap-4 flex-col">
-          <div className="flex flex-wrap gap-3">
-            <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
-              Growth Engineer
+        <article className="flex gap-4 flex-col">
+          <header>
+            <div className="flex flex-wrap gap-3">
+              <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
+                Growth Engineer
+              </div>
+              <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
+                Web Engineer
+              </div>
+              <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
+                Tech Lead
+              </div>
             </div>
-            <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
-              Web Engineer
-            </div>
-            <div className="px-2 py-1 text-sm bg-neutral-100 dark:bg-neutral-800 rounded-lg w-fit uppercase font-bold">
-              Tech Lead
-            </div>
-          </div>
-          <h1 className="text-6xl font-bold">Zachary Prong</h1>
-          <p>I&apos;m an engineer that loves to collaborate and build products that make a difference.</p>
-          <p>Learn more about me <a href="/about-me" className="text-amber-500 hover:underline hover:underline-offset-4">here</a>.</p>
+            <h1 className="text-6xl font-bold">Zachary Prong</h1>
+          </header>
+          <section>
+            <p>I&apos;m an engineer that loves to collaborate and build products that positively impact people&apos;s daily lives.</p>
+            <p>Learn more about me <a href="/about-me" className="text-amber-500 hover:underline hover:underline-offset-4">here</a>.</p>
+          </section>
           <div className="flex gap-4">
             <a
               href="/api/download"
@@ -36,7 +40,7 @@ export default function Home() {
               Contact Me
             </Link>
           </div>
-        </div>
+        </article>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap justify-start">
         Check out my:
